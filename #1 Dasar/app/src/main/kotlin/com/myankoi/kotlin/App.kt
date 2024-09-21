@@ -4,16 +4,13 @@
 package com.myankoi.kotlin
 
 class App {
-    var asemloy: String = "Kungkingkang"
-
-    val greeting: String
-        get() {
-            return "Hai $asemloy"
-        }
-
-
+    fun setUser (name: String, age: Int) : Any {
+        return "User $name with age $age"
+    }
 }
 
 fun main() {
-    println(App().greeting)
+    val user = App().setUser("Rama", 20)
+
+    println(user)
 }
