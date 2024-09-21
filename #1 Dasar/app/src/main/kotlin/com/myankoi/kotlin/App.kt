@@ -11,6 +11,5 @@ class App {
 
 fun main() {
     val user = App().setUser("Rama", 20)
-
     println(user)
 }
